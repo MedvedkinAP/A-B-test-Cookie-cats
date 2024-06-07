@@ -3,7 +3,7 @@ A/B test Cookie-cats from Kaggle
 ### About Dataset
 Source [Kaggle A/B test Cookie-cats](https://www.kaggle.com/datasets/zahrazolghadr/ab-test-cookie-cats/data)
 
-(https://github.com/MedvedkinAP/A-B-test-Cookie-cats/blob/main/dataset-cover.png)
+<https://github.com/MedvedkinAP/A-B-test-Cookie-cats/blob/main/dataset-cover.png>
 
 #### This dataset comprises A/B test outcomes for Cookie Cats, investigating the impact of relocating the initial gate in the game from level 30 to level 40. Upon installing the game, players were randomly assigned to either gate_30 or gate_40.
 #### The data we have is from 90189 players that installed the game while the AB-test was running.  The variables are: 
