@@ -10,3 +10,17 @@ Source [Kaggle A/B test Cookie-cats](https://www.kaggle.com/datasets/zahrazolgha
 - sum_gamerounds: the number of game rounds played by the player during the first 14 days after install
 - retention_1: Did the player come back and play 1 day after installing?
 - retention_7: Did the player come back and play 7 days after installing?
+
+  ### AB-test checks two hypotheses:
+1. HO: There is not sufficient difference between values in the 'sum_gamerounds' column for levels 30 and 40
+2. H1: There is sufficient difference between values in the 'sum_gamerounds' column for levels 30 and 40
+
+The study encompasses the following steps:
+1. Analysis of Cookie Cats dataset
+2. Clean up the Dataframe
+3. Check that the sample size is sufficient for the A/B test
+4. Check if the 'sum_gamerounds' column is a normal distribution
+5. Check the hypothesis that test group 'gate_40' is different from control group 'gate_30' by using the Mann-Whitney U statistic
+6. Check the hypothesis that test group 'gate_40' is different from control group 'gate_30' by using the z-test
+7. Check metrics
+
