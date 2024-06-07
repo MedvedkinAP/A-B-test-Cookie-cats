@@ -43,7 +43,6 @@ The analysis results are summarized as follows:
 Based on the analysis, we recommend not changing gate_30 to gate_40
 
 ### Limitations
-I had to remove all outlier values from the'sum_gamerounds' column for more than three standard deviations.
+I had to remove all outlier values from the 'sum_gamerounds' column that exceeded three standard deviations from the mean.
 
-### References
 
