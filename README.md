@@ -16,9 +16,9 @@ Source [Kaggle A/B test Cookie-cats](https://www.kaggle.com/datasets/zahrazolgha
 2. H1: There is sufficient difference between values in the 'sum_gamerounds' column for levels 30 and 40
 3. Term of test:
 - Effect size calculation: 3% of the mean of the control group
-- Perform power analysis to determine the required sample size
--- alpha = 0.05  - Significance level
--- power = 0.80  - Power
+- Perform power analysis to determine the required sample size:
+ alpha = 0.05  - Significance level
+ power = 0.80  - Power
 
 The study encompasses the following steps:
 1. Analysis of Cookie Cats dataset
